@@ -1,23 +1,5 @@
 $(document).ready(function () {
 
-    $('.about-slider').bxSlider({
-        pagerCustom: '#about-slider-pager'
-    });
-
-    $('.slider-pager').bxSlider({
-        infiniteLoop: false,
-        pager: false,
-        minSlides: 10,
-        maxSlides: 10,
-        moveSlides: 2,
-        slideMargin: 5,
-        slideWidth: 80,
-        nextSelector: '#pager-control_right',
-        prevSelector: '#pager-control_left',
-        nextText: '',
-        prevText: ''
-    });
-
 
     $('.certificates-slider').bxSlider({
         infiniteLoop: false,
