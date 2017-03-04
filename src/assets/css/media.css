@@ -1,0 +1,19 @@
+@media screen and (max-width: 1300px){
+    .advantages{
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+    .advantage{
+        margin-bottom: 30px;
+    }
+    .advantages .advantage:last-child,
+    .advantages .advantage:nth-last-child(2){
+        margin-bottom: 0;
+    }
+    .advantages .advantage:last-child{
+        margin-right: 60px;
+    }
+    .advantages .advantage:nth-last-child(2){
+        margin-left: 60px;
+    }
+}
