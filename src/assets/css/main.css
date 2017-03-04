@@ -3,7 +3,10 @@
 @import "uikit/uikit.css";
 
 /************************* Fonts *************************/
-
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro/MYRIADPROREGULAR.ttf') format('truetype');
+}
 @font-face {
     font-family: 'PFBeauSansPro-Light';
     src: url('../fonts/PFBeauSansPro/PFBeauSansPro-Light.ttf') format('truetype');
